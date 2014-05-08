@@ -1,7 +1,9 @@
-﻿var url;
-var pageTime;
-var timeOutID;
-var pr;
+﻿var url,
+pageTime,
+timeOutID,
+pr,
+but,
+pause=false;
 //function PrintTime(t)
 //{
 //    return t;
@@ -11,22 +13,43 @@ function NextPage(address) {
     location.assign(address);
 }
 
+function Pause(addr) {
+    if (!pause) {
+        pause = true;
+        but = document.getElementById("pause");
+        but.innerHTML = "Продолжить";
+        clearTimeout(timeOutID);
+    }
+    else {
+        pause = false;
+        but = document.getElementById("pause");
+        but.innerHTML = "Остановить";
+        Progress(addr, pageTime);
+    }
+}
+
 function Progress(addr, time) {
-    var a = "" + addr;
-    if (a != "undefined") {
+    var a = "" + addr,
+        b,
+        bar;
+    if (a.match(/.+\.html/)) {        
         url = "" + a;
     }
+    
+    b = +time;     
 
-    var b = +time;
-    if (pageTime == undefined) {
+    if (pageTime === undefined) {
+        
         pageTime = +b;
     }
+    //alert("pageTime  "+pageTime );
 
-    var bar = document.getElementById("LeftTime");
+    bar = document.getElementById("LeftTime");
     bar.innerHTML = pageTime;
     pageTime--;
 
     if (pageTime > 0) {
+        //alert("continue ");
         timeOutID = setTimeout(Progress, 1000);
     }
     else {

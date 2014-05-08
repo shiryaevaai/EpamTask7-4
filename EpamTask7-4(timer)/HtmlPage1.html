@@ -13,15 +13,16 @@
 </script>
 
  <body> 
- <!-- <progress max="100" value="0" id="bar"></progress>-->
-
     <p>
     <button id="reset" onclick="StopProgress();Progress('HtmlPage2.html',time1);">Отсчет времени заново</button>
     </p>
 
-      <img src="Images/pic1.jpg" />
-     
-     <!--<p> До конца просмотра осталось</p> <p id="LeftTime"> <script> PrintTime(time1); </script> </p> <p>секунд </p>  -->
+     <p>
+    <button id="pause" onclick="Pause('HtmlPage2.html');">Остановить</button>
+    </p>
+
+      <img src="Images/pic1.jpg" />     
+   
      <p> До конца просмотра осталось</p> <p id="LeftTime">  </p> <p>секунд </p>  
 
     <script>
