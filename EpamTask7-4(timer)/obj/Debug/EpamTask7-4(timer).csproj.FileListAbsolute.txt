@@ -1,0 +1,15 @@
+c:\users\user\documents\visual studio 2012\Projects\EpamTask7-4(timer)\EpamTask7-4(timer)\bin\EpamTask7-4(timer).dll
+c:\users\user\documents\visual studio 2012\Projects\EpamTask7-4(timer)\EpamTask7-4(timer)\bin\EpamTask7-4(timer).pdb
+c:\users\user\documents\visual studio 2012\Projects\EpamTask7-4(timer)\EpamTask7-4(timer)\obj\Debug\EpamTask7-4(timer).dll
+c:\users\user\documents\visual studio 2012\Projects\EpamTask7-4(timer)\EpamTask7-4(timer)\obj\Debug\EpamTask7-4(timer).pdb
+C:\Users\User\documents\visual studio 2012\Projects\EpamTask7-4(timer)\EpamTask7-4(timer)\obj\Debug\EpamTask7-4(timer).csprojResolveAssemblyReference.cache
+C:\Users\user\Desktop\050514\EpamTask7-4(timer)\EpamTask7-4(timer)\bin\EpamTask7-4(timer).dll
+C:\Users\user\Desktop\050514\EpamTask7-4(timer)\EpamTask7-4(timer)\bin\EpamTask7-4(timer).pdb
+C:\Users\user\Desktop\050514\EpamTask7-4(timer)\EpamTask7-4(timer)\obj\Debug\EpamTask7-4(timer).csprojResolveAssemblyReference.cache
+C:\Users\user\Desktop\050514\EpamTask7-4(timer)\EpamTask7-4(timer)\obj\Debug\EpamTask7-4(timer).dll
+C:\Users\user\Desktop\050514\EpamTask7-4(timer)\EpamTask7-4(timer)\obj\Debug\EpamTask7-4(timer).pdb
+G:\Epam courses\New folder\050514\EpamTask7-4(timer)\EpamTask7-4(timer)\bin\EpamTask7-4(timer).dll
+G:\Epam courses\New folder\050514\EpamTask7-4(timer)\EpamTask7-4(timer)\bin\EpamTask7-4(timer).pdb
+G:\Epam courses\New folder\050514\EpamTask7-4(timer)\EpamTask7-4(timer)\obj\Debug\EpamTask7-4(timer).csprojResolveAssemblyReference.cache
+G:\Epam courses\New folder\050514\EpamTask7-4(timer)\EpamTask7-4(timer)\obj\Debug\EpamTask7-4(timer).dll
+G:\Epam courses\New folder\050514\EpamTask7-4(timer)\EpamTask7-4(timer)\obj\Debug\EpamTask7-4(timer).pdb

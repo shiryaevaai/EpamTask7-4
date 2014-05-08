@@ -1,0 +1,33 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <link href="StyleSheet74.css" rel="stylesheet" />   
+    <script src="JavaScript74.js"></script>
+    <title>Painted cat</title>
+</head>
+
+ <script>
+        var time2 = 5;
+</script>
+
+<body>
+
+    <form action ="HtmlPage1.html">
+    <button id="back">Назад</button>
+    </form>
+
+    <p>
+    <button id="reset" onclick="StopProgress();Progress('HtmlPage3.html',time2);">Отсчет времени заново</button>
+    </p>
+
+        <img src="Images/pic2.jpg" />
+
+         <p> До конца просмотра осталось</p> <p id="LeftTime">  </p> <p>секунд </p>     
+
+    <script>
+        Progress("HtmlPage3.html", time2);
+    </script>
+
+</body>
+</html>

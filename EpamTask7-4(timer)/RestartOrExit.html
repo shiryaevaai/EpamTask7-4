@@ -1,0 +1,48 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <link href="StyleSheet74.css" rel="stylesheet" />     
+    <title></title>
+
+</head>
+<body>
+
+    <p>Выберите действие:</p>
+
+<!--    <input type="radio" name="retValue1" id="retValue1" value="restart" />С начала<br/>
+        <input type="radio" name="retValue2" id="retValue2" value="finish" />Завершить<br/>
+        <input type="submit" value="Submit" onclick='ret()'/><br/>-->
+
+        <input type="submit" value="С начала" id="submit1" onclick='ret("restart")' /><br/>
+        <input type="submit" value="Завершить" id="submit2" onclick='ret("finish")' /><br/>
+
+    
+    <script>
+        function ret() {
+            if (document.getElementById('retValue1').checked) {
+                window.returnValue = document.getElementById('retValue1').value;
+                window.close();
+                return false;                
+            }
+            else if (document.getElementById('retValue2').checked) {
+                window.returnValue = document.getElementById('retValue2').value;
+                self.close();
+                return false;
+            }
+            else {
+                alert("!");
+            }
+            window.close();
+            return false;
+        }
+
+        function ret(value) {       
+                window.returnValue = value;
+                window.close();
+                //return false;          
+        }
+    </script>
+
+</body>
+</html>

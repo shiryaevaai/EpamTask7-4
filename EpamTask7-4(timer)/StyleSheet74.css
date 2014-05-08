@@ -1,0 +1,45 @@
+﻿body {
+background-color: #b2e2f7;
+font: normal 14px 'Comic Sans MS';
+}
+
+.marked {
+background-color: #f57a64;
+}
+
+p.parBold { /* Абзац с классом parBold */
+color: #1B1F92; /* Синий цвет текста */
+padding-left: 15px; /* Расстояние от линии до текста */
+font: normal 18px 'Comic Sans MS' bold;
+}
+
+input, button
+{
+    background-color: #66b1fa;
+    width: 130px;
+    height:50px;
+}
+
+table {
+     /*border: "2";*/
+     width: 30%;
+     background-color:whitesmoke;
+}
+
+th, td {
+text-align: center; 
+vertical-align: top;
+width: 40%;
+}
+
+.CenterTD {
+    width: 20%;
+}
+
+ul {
+     list-style-position: inside;     
+     margin-left: 0px; /* Отступ слева */
+     right:50px;
+     position: relative;
+}
+
